@@ -1,0 +1,1 @@
+ const unsigned char Pods_CircleUITestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_CircleUITests  PROJECT:Pods-1" "\n"; const double Pods_CircleUITestsVersionNumber __attribute__ ((used)) = (double)1.;
