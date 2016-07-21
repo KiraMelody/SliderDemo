@@ -108,10 +108,23 @@ SWIFT_CLASS("_TtC6Circle11AppDelegate")
 @end
 
 @class UIView;
-@class UISlider;
-@class UILabel;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC6Circle11Myanimation")
+@interface Myanimation : UIViewController
+@property (nonatomic, strong) UIView * __null_unspecified square;
+@property (nonatomic, strong) UIButton * __null_unspecified button;
+- (void)viewDidLoad;
+- (void)animationbegin:(UIButton * __nonnull)sender;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISlider;
+@class UILabel;
 
 SWIFT_CLASS("_TtC6Circle8Mycircle")
 @interface Mycircle : UIViewController

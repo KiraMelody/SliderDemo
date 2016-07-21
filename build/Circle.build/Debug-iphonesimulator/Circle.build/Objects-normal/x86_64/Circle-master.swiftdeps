@@ -1,7 +1,8 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "1a27e652be275583ee11aaa754e50dfc"
-build_time: [522403139, 515616000]
+build_time: [522405337, 161051000]
 inputs:
+  "/Users/apple/Developer/Circle/Circle/Myanimation.swift": [522405336, 0]
+  "/Users/apple/Developer/Circle/Circle/AppDelegate.swift": [522403750, 0]
   "/Users/apple/Developer/Circle/Circle/ViewController.swift": [522397288, 0]
   "/Users/apple/Developer/Circle/Circle/Mycircle.swift": [522403138, 0]
-  "/Users/apple/Developer/Circle/Circle/AppDelegate.swift": [522397362, 0]

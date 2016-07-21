@@ -6,28 +6,28 @@ provides-nominal:
 provides-member:
 - ["C6Circle11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
-- "applicationWillTerminate"
-- "window"
-- "application"
 - "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
+- "window"
 - "applicationDidBecomeActive"
+- "application"
+- "applicationWillEnterForeground"
 depends-top-level:
-- "UIResponder"
-- !private "BooleanLiteralType"
-- !private "UINavigationController"
-- !private "UIScreen"
-- !private "Mycircle"
-- "AnyObject"
-- "Bool"
-- "AppDelegate"
-- "NSObject"
-- "UIApplicationDelegate"
-- "UIWindow"
 - "UIApplication"
+- "UIWindow"
+- "AppDelegate"
+- !private "BooleanLiteralType"
+- !private "Myanimation"
+- !private "UINavigationController"
+- "UIApplicationDelegate"
+- !private "UIScreen"
+- "NSObject"
+- "AnyObject"
+- "UIResponder"
+- "Bool"
 depends-member:
-- !private ["PSs9AnyObject", "Mycircle"]
+- !private ["PSs9AnyObject", "Myanimation"]
 - !private ["PSs9AnyObject", "UINavigationController"]
 - !private ["PSs9AnyObject", "UIScreen"]
 - !private ["PSs9AnyObject", "UIWindow"]
@@ -52,7 +52,7 @@ depends-member:
 - ["PSs9AnyObject", ""]
 - ["C6Circle11AppDelegate", "AnyObject"]
 - ["C6Circle11AppDelegate", "Bool"]
-- !private ["C6Circle11AppDelegate", "Mycircle"]
+- !private ["C6Circle11AppDelegate", "Myanimation"]
 - ["C6Circle11AppDelegate", "NSObject"]
 - ["C6Circle11AppDelegate", "UIApplication"]
 - !private ["C6Circle11AppDelegate", "UINavigationController"]
@@ -73,7 +73,7 @@ depends-member:
 - ["C6Circle11AppDelegate", "deinit"]
 - ["C6Circle11AppDelegate", "init"]
 - ["C6Circle11AppDelegate", "window"]
-- !private ["PSs11CVarArgType", "Mycircle"]
+- !private ["PSs11CVarArgType", "Myanimation"]
 - !private ["PSs11CVarArgType", "UINavigationController"]
 - !private ["PSs11CVarArgType", "UIScreen"]
 - !private ["PSs11CVarArgType", "UIWindow"]
@@ -96,7 +96,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "rootViewController"]
 - ["PSs11CVarArgType", "window"]
 - ["PSs11CVarArgType", ""]
-- !private ["PSs23CustomStringConvertible", "Mycircle"]
+- !private ["PSs23CustomStringConvertible", "Myanimation"]
 - !private ["PSs23CustomStringConvertible", "UINavigationController"]
 - !private ["PSs23CustomStringConvertible", "UIScreen"]
 - !private ["PSs23CustomStringConvertible", "UIWindow"]
@@ -119,7 +119,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "rootViewController"]
 - ["PSs23CustomStringConvertible", "window"]
 - ["PSs23CustomStringConvertible", ""]
-- !private ["PSs9Equatable", "Mycircle"]
+- !private ["PSs9Equatable", "Myanimation"]
 - !private ["PSs9Equatable", "UINavigationController"]
 - !private ["PSs9Equatable", "UIScreen"]
 - !private ["PSs9Equatable", "UIWindow"]
@@ -142,7 +142,7 @@ depends-member:
 - !private ["PSs9Equatable", "rootViewController"]
 - ["PSs9Equatable", "window"]
 - ["PSs9Equatable", ""]
-- !private ["PSs8Hashable", "Mycircle"]
+- !private ["PSs8Hashable", "Myanimation"]
 - !private ["PSs8Hashable", "UINavigationController"]
 - !private ["PSs8Hashable", "UIScreen"]
 - !private ["PSs8Hashable", "UIWindow"]
@@ -165,14 +165,14 @@ depends-member:
 - !private ["PSs8Hashable", "rootViewController"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
-- !private ["C6Circle8Mycircle", "init"]
+- !private ["C6Circle11Myanimation", "init"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "makeKeyAndVisible"]
 - !private ["PSo8NSCoding", "rootViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
-- !private ["CSo8NSObject", "Mycircle"]
+- !private ["CSo8NSObject", "Myanimation"]
 - ["CSo8NSObject", "NSObject"]
 - ["CSo8NSObject", "UIApplication"]
 - !private ["CSo8NSObject", "UINavigationController"]
@@ -196,7 +196,7 @@ depends-member:
 - !private ["CSo8NSObject", "makeKeyAndVisible"]
 - !private ["CSo8NSObject", "rootViewController"]
 - ["CSo8NSObject", "window"]
-- !private ["PSo16NSObjectProtocol", "Mycircle"]
+- !private ["PSo16NSObjectProtocol", "Myanimation"]
 - !private ["PSo16NSObjectProtocol", "UINavigationController"]
 - !private ["PSo16NSObjectProtocol", "UIScreen"]
 - !private ["PSo16NSObjectProtocol", "UIWindow"]
@@ -228,7 +228,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "makeKeyAndVisible"]
 - !private ["PSo21UIAppearanceContainer", "rootViewController"]
-- !private ["PSo21UIApplicationDelegate", "Mycircle"]
+- !private ["PSo21UIApplicationDelegate", "Myanimation"]
 - !private ["PSo21UIApplicationDelegate", "UINavigationController"]
 - !private ["PSo21UIApplicationDelegate", "UIScreen"]
 - !private ["PSo21UIApplicationDelegate", "UIWindow"]
@@ -259,7 +259,7 @@ depends-member:
 - !private ["CSo22UINavigationController", "init"]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
-- !private ["CSo11UIResponder", "Mycircle"]
+- !private ["CSo11UIResponder", "Myanimation"]
 - ["CSo11UIResponder", "NSObject"]
 - ["CSo11UIResponder", "UIApplication"]
 - !private ["CSo11UIResponder", "UINavigationController"]
@@ -307,7 +307,7 @@ depends-nominal:
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
 - "PSs8Hashable"
-- !private "C6Circle8Mycircle"
+- !private "C6Circle11Myanimation"
 - !private "PSo8NSCoding"
 - !private "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"

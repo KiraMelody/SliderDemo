@@ -15,6 +15,7 @@
 		1859B0B41D408F2600415BA1 /* CircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859B0B31D408F2600415BA1 /* CircleTests.swift */; };
 		1859B0BF1D408F2600415BA1 /* CircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859B0BE1D408F2600415BA1 /* CircleUITests.swift */; };
 		1859B0CD1D40A1A600415BA1 /* Mycircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859B0CC1D40A1A600415BA1 /* Mycircle.swift */; };
+		1899AF4F1D40BA940089B6F6 /* Myanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF4E1D40BA940089B6F6 /* Myanimation.swift */; };
 		80A35315CC949A6F8EC819EC /* Pods_CircleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B699793D183DB90343F08B1D /* Pods_CircleUITests.framework */; };
 		C0A158E65FF95BFB55AC1F4A /* Pods_CircleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05D6B0DE1ACB1F93FC06273 /* Pods_CircleTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		1859B0BE1D408F2600415BA1 /* CircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleUITests.swift; sourceTree = "<group>"; };
 		1859B0C01D408F2600415BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1859B0CC1D40A1A600415BA1 /* Mycircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mycircle.swift; sourceTree = "<group>"; };
+		1899AF4E1D40BA940089B6F6 /* Myanimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Myanimation.swift; sourceTree = "<group>"; };
 		42329C067763D5F8EDAC11C5 /* Pods-Circle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Circle/Pods-Circle.debug.xcconfig"; sourceTree = "<group>"; };
 		585D5D1A63F1AAC81270E398 /* Pods-Circle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Circle/Pods-Circle.release.xcconfig"; sourceTree = "<group>"; };
 		B51E0A280F039E929F17B26F /* Pods-CircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleUITests/Pods-CircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				1859B0A71D408F2600415BA1 /* LaunchScreen.storyboard */,
 				1859B0AA1D408F2600415BA1 /* Info.plist */,
 				1859B0CC1D40A1A600415BA1 /* Mycircle.swift */,
+				1899AF4E1D40BA940089B6F6 /* Myanimation.swift */,
 			);
 			path = Circle;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 			files = (
 				1859B0A11D408F2600415BA1 /* ViewController.swift in Sources */,
 				1859B0CD1D40A1A600415BA1 /* Mycircle.swift in Sources */,
+				1899AF4F1D40BA940089B6F6 /* Myanimation.swift in Sources */,
 				1859B09F1D408F2600415BA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
