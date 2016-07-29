@@ -7,6 +7,9 @@ target 'Circle' do
 
   # Pods for Circle
 pod "SnapKit","~> 0.15.0"
+pod 'Alamofire','~> 3.2.0'
+pod 'JRSegmentedControl'
+pod 'MJRefresh'
   target 'CircleTests' do
     inherit! :search_paths
     # Pods for testing

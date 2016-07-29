@@ -4,6 +4,197 @@
   'roots': [
     {
       'type': 'directory',
+      'name': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Developer/Circle/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/JRSegmentedControl/JRSegmentedControl.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JRSegmentedControl-Swift.h",
+          'external-contents': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/JRSegmentedControl/JRSegmentedControl.framework/Headers/JRSegmentedControl-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JRSegmentedControl-umbrella.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/Target Support Files/JRSegmentedControl/JRSegmentedControl-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "JRSegmentedControl.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/JRSegmentedControl/Pod/Classes/JRSegmentedControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "JRSegmentedControlConfiguration.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/JRSegmentedControl/Pod/Classes/JRSegmentedControlConfiguration.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/JRSegmentedControl/JRSegmentedControl.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Developer/Circle/build/Pods.build/Debug-iphonesimulator/JRSegmentedControl.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MJRefresh-Swift.h",
+          'external-contents': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefresh-umbrella.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/Target Support Files/MJRefresh/MJRefresh-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefresh.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoGifFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoNormalFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoStateFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackGifFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackNormalFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackStateFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshComponent.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Base/MJRefreshComponent.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshConst.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/MJRefreshConst.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshFooter.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshGifHeader.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshHeader.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshNormalHeader.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshNormalHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshStateHeader.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshStateHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSBundle+MJRefresh.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/NSBundle+MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+MJExtension.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/UIScrollView+MJExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+MJRefresh.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/UIScrollView+MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+MJExtension.h",
+          'external-contents': "/Users/apple/Developer/Circle/Pods/MJRefresh/MJRefresh/UIView+MJExtension.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Developer/Circle/build/Pods.build/Debug-iphonesimulator/MJRefresh.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/apple/Developer/Circle/build/Debug-iphonesimulator/Pods_Circle.framework/Headers",
       'contents': [
         {

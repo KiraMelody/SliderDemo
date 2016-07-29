@@ -1,0 +1,1 @@
+ const unsigned char JRSegmentedControlVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:JRSegmentedControl  PROJECT:Pods-1" "\n"; const double JRSegmentedControlVersionNumber __attribute__ ((used)) = (double)1.;

@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C6Circle8Mycircle", ""]
 provides-dynamic-lookup:
-- "slider"
-- "sliderValueChanged"
 - "circle"
-- "viewDidLoad"
 - "label"
+- "sliderValueChanged"
+- "viewDidLoad"
+- "slider"
 depends-top-level:
 - !private "StringLiteralType"
-- "UISlider"
-- !private "*"
-- !private "Void"
-- "UIView"
-- !private "CGFloat"
-- "UIViewController"
-- !private "BooleanLiteralType"
 - "UILabel"
+- "UIViewController"
+- "UISlider"
+- !private "BooleanLiteralType"
+- !private "Void"
+- "Mycircle"
 - !private "UIColor"
 - !private "UIControlEvents"
-- "Mycircle"
+- !private "*"
+- "UIView"
+- !private "CGFloat"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]

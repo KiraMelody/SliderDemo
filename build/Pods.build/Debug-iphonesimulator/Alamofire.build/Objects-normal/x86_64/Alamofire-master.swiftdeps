@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "5628a13e03c673928c58397b3086a555"
+build_time: [522737666, 294289000]
+inputs:
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Download.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Alamofire.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Request.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Response.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Validation.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Manager.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Error.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Notifications.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/ParameterEncoding.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Stream.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Timeline.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Upload.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/MultipartFormData.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/ResponseSerialization.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/Result.swift": [522730517, 0]
+  "/Users/apple/Developer/Circle/Pods/Alamofire/Source/ServerTrustPolicy.swift": [522730517, 0]

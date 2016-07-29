@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JRSegmentedControl-JRSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JRSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Circle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +47,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3A344F023E5374F5A95A9F00584CF22E</key>
+		<key>1A0600625FC3F807B14E06CFD9EBF21D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29DD99664D189A7CA206368F493B1E0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +62,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6C8C62150177505595C8D2E7BE4C5B12</key>
+		<key>708F167407674FBE46B8D26DC02C22D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A0EB03AF8B4AB668FF0A62CE28F1FFEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C34F70B33A0E0D62B696A2D4E3483873</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC5BAECEC93D1E19ACE4CEB18823A492</key>
 		<dict>
 			<key>primary</key>
 			<true/>

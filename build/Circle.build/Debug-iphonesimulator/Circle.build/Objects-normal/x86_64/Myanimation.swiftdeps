@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C6Circle11Myanimation", ""]
 provides-dynamic-lookup:
-- "button"
+- "animationbegin"
 - "square"
 - "viewDidLoad"
-- "animationbegin"
+- "button"
 - "didReceiveMemoryWarning"
 depends-top-level:
+- !private "Void"
+- "UIButton"
+- !private "UIColor"
 - !private "UIControlEvents"
 - "UIView"
-- !private "UIControlState"
-- !private "UIColor"
-- "UIButton"
+- !private "StringLiteralType"
 - !private "UIButtonType"
 - "UIViewController"
-- !private "StringLiteralType"
+- !private "UIControlState"
 - "Myanimation"
-- !private "Void"
 depends-member:
 - !private ["PSs9AnyObject", "UIButton"]
 - !private ["PSs9AnyObject", "UIButtonType"]
